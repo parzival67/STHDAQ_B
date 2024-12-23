@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "102010448")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/102010448.kicad_sym")(options "")(descr ""))
+  (lib (name "IP5306")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/IP5306.kicad_sym")(options "")(descr ""))
+  (lib (name "CONN_532610001")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/CONN_532610001.kicad_sym")(options "")(descr ""))
+)

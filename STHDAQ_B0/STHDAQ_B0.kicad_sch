@@ -12845,7 +12845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_532610001-SD_10_MOL"
+		(property "Footprint" "daFootprints:CONN_532610001"
 			(at 148.59 29.21 0)
 			(effects
 				(font
