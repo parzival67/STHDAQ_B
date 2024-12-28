@@ -3,4 +3,6 @@
   (lib (name "102010448")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/102010448.kicad_sym")(options "")(descr ""))
   (lib (name "IP5306")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/IP5306.kicad_sym")(options "")(descr ""))
   (lib (name "CONN_532610001")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/CONN_532610001.kicad_sym")(options "")(descr ""))
+  (lib (name "SW_JS202011JCQN")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/SW_JS202011JCQN.kicad_sym")(options "")(descr ""))
+  (lib (name "SW_JS102011JCQN")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/SW_JS102011JCQN.kicad_sym")(options "")(descr ""))
 )
