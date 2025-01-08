@@ -8843,7 +8843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABLS-8.000MHZ-K4T:XTAL_ABLS-8.000MHZ-K4T"
+		(property "Footprint" "daFootprints:XTAL_ABLS-8.000MHZ-K4T"
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -9032,7 +9032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D0008A_N"
+		(property "Footprint" "daFootprints:INA821IDR"
 			(at 16.256 86.614 0)
 			(effects
 				(font
@@ -10540,7 +10540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D0008A_N"
+		(property "Footprint" "daFootprints:INA821IDR"
 			(at 67.056 86.614 0)
 			(effects
 				(font
@@ -11897,7 +11897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D0008A_N"
+		(property "Footprint" "daFootprints:INA821IDR"
 			(at 16.256 52.324 0)
 			(effects
 				(font
@@ -12189,7 +12189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D0008A_N"
+		(property "Footprint" "daFootprints:INA821IDR"
 			(at 67.056 52.324 0)
 			(effects
 				(font
