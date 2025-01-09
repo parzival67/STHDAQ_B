@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LT1461AIS8-5_PBF")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/LT1461AIS8-5_PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "JST_S2B-PH-SM4-TB")(type "KiCad")(uri "${KIPRJMOD}/libraries/daSymbols/S2B-PH-SM4-TB.kicad_sym")(options "")(descr ""))
+)
