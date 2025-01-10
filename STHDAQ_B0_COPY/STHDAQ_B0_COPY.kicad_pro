@@ -444,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STHDAQ_B0.kicad_pro",
+    "filename": "STHDAQ_B0_COPY.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -481,7 +481,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber_STHDAQ_B0/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
