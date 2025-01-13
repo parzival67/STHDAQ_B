@@ -3615,6 +3615,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "OPA350UA:OPA350UA"
 			(pin_names
 				(offset 0.254)
@@ -4237,12 +4319,6 @@
 		(uuid "341c6d21-a099-48e6-80f4-4668866570fc")
 	)
 	(junction
-		(at 250.19 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3917e501-4f10-4be7-afc8-877728de8bb6")
-	)
-	(junction
 		(at 189.23 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4571,6 +4647,16 @@
 			(type default)
 		)
 		(uuid "076c4512-e9a3-4f98-b964-d87d7768e520")
+	)
+	(wire
+		(pts
+			(xy 250.19 127) (xy 257.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084088f9-d236-4f30-98f9-5f5df85c440e")
 	)
 	(wire
 		(pts
@@ -5184,16 +5270,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 127) (xy 257.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c663f7e-7f00-442e-932b-f92fc6e9add0")
-	)
-	(wire
-		(pts
 			(xy 257.81 120.65) (xy 254 120.65)
 		)
 		(stroke
@@ -5641,16 +5717,6 @@
 			(type default)
 		)
 		(uuid "a04e91db-f53e-4974-9ed9-484505bb58f2")
-	)
-	(wire
-		(pts
-			(xy 247.65 127) (xy 250.19 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08539f3-8206-4abb-a3d3-cb8199bb1008")
 	)
 	(wire
 		(pts
@@ -7913,6 +7979,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 215.9 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a376499-992a-4175-ba2b-e34e5ecc64bd")
+		(property "Reference" "H3"
+			(at 218.44 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 218.44 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STHDAQ_BX"
+				(path "/311143c5-e6b4-4ed8-8703-07ead8934725"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 259.08 72.39 90)
 		(unit 1)
@@ -8477,7 +8607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "daFootprints:JST_S2B-PH-SM4-TB"
+		(property "Footprint" "daFootprintsBX:JST_S2B-PH-SM4-TB"
 			(at 265.43 36.83 0)
 			(effects
 				(font
@@ -9149,6 +9279,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 236.8523 160.3426 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57026e52-1fce-4aa6-968c-6457367821a3")
+		(property "Reference" "H4"
+			(at 239.3923 159.0725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 239.3923 161.6125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 236.8523 160.3426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.8523 160.3426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 236.8523 160.3426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STHDAQ_BX"
+				(path "/311143c5-e6b4-4ed8-8703-07ead8934725"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 227.33 78.74 270)
 		(unit 1)
@@ -9561,6 +9755,70 @@
 			(project ""
 				(path "/311143c5-e6b4-4ed8-8703-07ead8934725"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71d20139-6691-4984-ba5d-6688030391db")
+		(property "Reference" "H2"
+			(at 199.39 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 196.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STHDAQ_BX"
+				(path "/311143c5-e6b4-4ed8-8703-07ead8934725"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12166,6 +12424,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 177.8 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f34c7048-04c8-402e-b1d2-d729c855d03b")
+		(property "Reference" "H1"
+			(at 180.34 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 180.34 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 177.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 177.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/311143c5-e6b4-4ed8-8703-07ead8934725"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 48.26 129.54 0)
 		(unit 1)
@@ -12257,7 +12579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "daFootprints:SOIC127P600X175-8N"
+		(property "Footprint" "daFootprintsBX:SOIC127P600X175-8N"
 			(at 120.142 125.984 0)
 			(effects
 				(font
