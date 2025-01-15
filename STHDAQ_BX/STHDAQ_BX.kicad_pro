@@ -470,7 +470,10 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "5VCC": "rgb(255, 54, 247)",
+      "Earth": "rgb(0, 255, 12)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
