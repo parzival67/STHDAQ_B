@@ -954,7 +954,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2d6411cc-6ce0-42e5-b3d3-0987f8ee05e8")
 			(effects
@@ -1109,7 +1109,7 @@
 			(uuid "eb94f224-c366-474d-8724-98ebd0ae94eb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3623a8de-0a91-47e5-b23b-022fd76f2827")
 			(effects
@@ -1380,7 +1380,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "60ec1e1a-a2f2-468e-8b3b-47242b367a6f")
 			(effects
@@ -1535,7 +1535,7 @@
 			(uuid "7481fe1a-a27f-4c38-bb48-18ab9b2b560e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "198d88ff-b3fb-4208-8136-c382db870066")
 			(effects
@@ -1582,7 +1582,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at 3.048 0 360)
+			(at 3.048 0 0)
 			(layer "F.SilkS")
 			(uuid "5341829c-11a4-4057-a9c4-829da702bdfc")
 			(effects
@@ -1593,7 +1593,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f7985ef7-7dab-4675-9595-8341d4556073")
 			(effects
@@ -1748,7 +1748,7 @@
 			(uuid "9b605b12-71db-4df4-b4c8-654d679d77f3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9da26252-e748-4b41-8037-a423952635f5")
 			(effects
@@ -2574,7 +2574,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "b8b38510-4434-43fc-bbb5-5c6dfc6651f6")
 			(effects
@@ -2585,7 +2585,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a77a6e98-7095-46ee-ba70-b873ccea5db7")
 			(effects
@@ -2740,7 +2740,7 @@
 			(uuid "61d7e919-d344-4393-817c-75ba72e1bd23")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c8e4adc2-37ef-4671-be18-a0aa85a9a93c")
 			(effects
@@ -3126,7 +3126,7 @@
 		(uuid "3713badc-7ab6-4f0b-bf72-b7b0ff3098c2")
 		(at 197.023 115.824 -90)
 		(property "Reference" "P1"
-			(at -3.302 1.443 -90)
+			(at -3.302 1.443 90)
 			(layer "F.SilkS")
 			(uuid "cb0c416e-30af-41cc-ae7e-7771ded6f0f6")
 			(effects
@@ -3137,7 +3137,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-SM4-TB"
-			(at 6.2967 3.11582 -90)
+			(at 6.2967 3.11582 90)
 			(layer "F.Fab")
 			(uuid "4511c59d-1adb-40be-b3cf-d2b2a5e08384")
 			(effects
@@ -3148,7 +3148,7 @@
 			)
 		)
 		(property "Footprint" "daFootprintsBX:JST_S2B-PH-SM4-TB"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69a220f7-bfc8-4176-ab7f-2239c39af203")
@@ -3160,7 +3160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b74f14f3-a8ae-4796-9ed6-90fd9b726e93")
@@ -3172,7 +3172,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5bbc875b-8f9b-4372-9caa-4992ad4164f5")
@@ -3468,6 +3468,17 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(solder_mask_margin 0.102)
 			(uuid "6199a04a-5cc7-48d7-8686-87fdcb950f4d")
+		)
+		(model "${KIPRJMOD}/libraries/daSteps/S2B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 7.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
@@ -3970,7 +3981,7 @@
 			)
 		)
 		(property "Footprint" "daFootprints:OPA350UA"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1066d6d2-dc01-4d28-8dc1-b3a30cebb864")
@@ -3982,7 +3993,7 @@
 			)
 		)
 		(property "Datasheet" "OPA350UA"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8ab460d-f784-4b09-9fbd-6cec947604a2")
@@ -3994,7 +4005,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02b9943d-ab60-40b1-8765-a2409c67f0c2")
@@ -4546,7 +4557,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -1.6129 -2.4257 360)
+			(at -1.6129 -2.4257 0)
 			(layer "F.Fab")
 			(uuid "dd8c497e-8516-48fe-bd2a-720c95b55ee9")
 			(effects
@@ -4627,6 +4638,17 @@
 			(pinfunction "NC")
 			(pintype "unspecified+no_connect")
 			(uuid "5573beb6-2983-443a-bd1b-ac6d45af9fd2")
+		)
+		(model "${KIPRJMOD}/libraries/daSteps/INA821IDR.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "daFootprints:CONN_532610001"
@@ -5666,7 +5688,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cd82f843-84c1-468c-b3f5-fe3de1bb7125")
 			(effects
@@ -5821,7 +5843,7 @@
 			(uuid "2323d4ad-5980-4210-ab85-cf90981146f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "55174f4d-9b40-4368-a118-14191e77b2ab")
 			(effects
@@ -8002,7 +8024,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6d3673d8-14a4-4642-a46e-1cf92b793fcb")
 			(effects
@@ -8157,7 +8179,7 @@
 			(uuid "3408827e-a93d-4bc8-bd46-50ff4a67a108")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2a240025-f6d8-4a56-b3c0-6a5c90709083")
 			(effects
@@ -9919,7 +9941,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3133201e-ab13-4c03-951b-a191075c1fe9")
 			(effects
@@ -10074,7 +10096,7 @@
 			(uuid "99e2bdb5-d2ab-462f-9760-b2afc06a8455")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9e7affa8-c4f3-468b-80ea-80e51516fffa")
 			(effects
@@ -10571,7 +10593,7 @@
 			)
 		)
 		(property "Footprint" "daFootprints:REF5025AIDR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "081fb062-df7e-4259-ac58-2640386a4912")
@@ -10583,7 +10605,7 @@
 			)
 		)
 		(property "Datasheet" "REF5025AIDR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd854daf-58fc-41b6-a68a-c158f9837bdf")
@@ -10595,7 +10617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "99d8893b-e0c8-4835-9395-7b3e0dfbfc00")
@@ -11135,7 +11157,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -1.6129 -2.4257 360)
+			(at -1.6129 -2.4257 0)
 			(layer "F.Fab")
 			(uuid "198fde51-5e45-4aba-82da-7fc43f3c7596")
 			(effects
@@ -11229,6 +11251,17 @@
 			(pintype "unspecified+no_connect")
 			(uuid "633b93c9-8b86-4572-8e01-6537068362dd")
 		)
+		(model "${KIPRJMOD}/libraries/daSteps/INA821IDR.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -11237,7 +11270,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 0.1535 -1.524 360)
+			(at 0.1535 -1.524 0)
 			(layer "F.SilkS")
 			(uuid "a724f125-b6b9-484c-883c-0be4c8155911")
 			(effects
@@ -11248,7 +11281,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "dcfe3719-66de-4707-9005-48397892100d")
 			(effects
@@ -11403,7 +11436,7 @@
 			(uuid "ea429cbd-1c5f-4ef1-ba52-a1b405938f8e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2101495c-ff30-4977-82f0-db894f168373")
 			(effects
@@ -11674,7 +11707,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5bcd0327-0699-401f-9866-d39937165394")
 			(effects
@@ -11829,7 +11862,7 @@
 			(uuid "a6e5ebab-d8c8-4d63-b4b8-cc4ebed0cf87")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "460f6633-7fd6-4b3b-b5c2-3d2254dada20")
 			(effects
@@ -13602,6 +13635,17 @@
 			(pintype "bidirectional+no_connect")
 			(uuid "30661111-0124-4108-970b-73f7693866ce")
 		)
+		(model "${KIPRJMOD}/libraries/daSteps/DB0028A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -14036,7 +14080,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 2.1325 -0.956 360)
+			(at 2.1325 -0.956 0)
 			(layer "F.SilkS")
 			(uuid "a7a3fc60-2032-4ce4-92e8-fd73ccd12de9")
 			(effects
@@ -14047,7 +14091,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "641987ef-3c66-453b-93af-2141915abb42")
 			(effects
@@ -14202,7 +14246,7 @@
 			(uuid "6c4712c1-5dce-48b8-8b09-e2b96d60b9a8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "84cd6df6-5570-4628-a304-de99ec8ecd32")
 			(effects

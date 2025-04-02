@@ -14897,7 +14897,7 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.05 360)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2a5f866a-3578-4c35-93ed-bb9736fcb027")
@@ -14909,7 +14909,7 @@
 			)
 		)
 		(property "Value" "499"
-			(at 0 1.05 360)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a2e0c51-0c51-4c99-90f3-774943fae151")
@@ -17756,6 +17756,138 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "9f92dff8-c87d-4a4e-94bf-5be639c515c2")
+		(pts
+			(xy 180.261 60.457) (xy 213.761 60.457)
+		)
+		(height -8.387)
+		(gr_text "33.5000 mm"
+			(at 197.011 50.92 0)
+			(layer "Edge.Cuts")
+			(uuid "9f92dff8-c87d-4a4e-94bf-5be639c515c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "b854cfb4-e112-4a5d-b70a-ecc040705387")
+		(pts
+			(xy 210.9 57.3) (xy 210.9 103.6)
+		)
+		(height -11.35)
+		(gr_text "46.3000 mm"
+			(at 221.1 80.45 90)
+			(layer "Edge.Cuts")
+			(uuid "b854cfb4-e112-4a5d-b70a-ecc040705387")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "dff17dfa-8f1b-4168-8206-2a6a0168da08")
+		(pts
+			(xy 183.261 60.457) (xy 210.761 60.457)
+		)
+		(height -11.689)
+		(gr_text "27.5000 mm"
+			(at 197.011 47.618 0)
+			(layer "Edge.Cuts")
+			(uuid "dff17dfa-8f1b-4168-8206-2a6a0168da08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "f6652c8b-00b4-4cc8-a5e2-02536440c5dd")
+		(pts
+			(xy 210.761 60.457) (xy 210.761 100.457)
+		)
+		(height -20.887)
+		(gr_text "40.0000 mm"
+			(at 230.498 80.457 90)
+			(layer "Edge.Cuts")
+			(uuid "f6652c8b-00b4-4cc8-a5e2-02536440c5dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 194.818 64.577)
