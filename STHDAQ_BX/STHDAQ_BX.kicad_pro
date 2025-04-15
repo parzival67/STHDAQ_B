@@ -482,8 +482,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber/",
-      "pos_files": "",
+      "plot": "Gerber_BX/",
+      "pos_files": "Gerber_BX/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -548,7 +548,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -626,7 +626,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
